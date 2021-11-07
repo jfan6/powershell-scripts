@@ -4,7 +4,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 Start-sleep 10
 
-choco install googlechrome
+choco install googlechrome 7zip notepadplusplus -y
 
 Install-WindowsFeature -Name telnet-client
 Install-WindowsFeature -Name Hyper-V -IncludeManagementTools -Restart
